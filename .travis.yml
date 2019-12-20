@@ -1,6 +1,11 @@
 sudo: required
 dist: trusty # Ubuntu 14.04
 services: docker # Enables docker
+branches:
+  only:
+    - master
+install:
+  - pip install ghp-import
 script:
 - wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
 - chmod +x latexdockercmd.sh
