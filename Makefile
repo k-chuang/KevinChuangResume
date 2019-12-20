@@ -2,7 +2,7 @@ TEXFILE = cv.tex
 PDFFILE = cv.pdf
 
 BASEDIR=$(CURDIR)
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/_build
 
 GITHUB_PAGES_BRANCH=master
 
@@ -20,10 +20,10 @@ clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 build:
-	mkdir $(OUTPUTDIR)
-	sudo docker run -it -v $(BASEDIR):/var/texlive texlive sh -c "pdflatex $(TEXFILE)"
-	mv $(PDFFILE) $(OUTPUTDIR)
-	cp CNAME $(OUTPUTDIR)
+	# mkdir $(OUTPUTDIR)
+	# sudo docker run -it -v $(BASEDIR):/var/texlive texlive sh -c "pdflatex $(TEXFILE)"
+	# mv $(PDFFILE) $(OUTPUTDIR)
+	# cp CNAME $(OUTPUTDIR)
 	cp index.html $(OUTPUTDIR)
 
 github:
