@@ -235,7 +235,7 @@
 \newcommand*{\honorlocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 
 % For elements of skill
-\newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\skilltypestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
 
 % For elements of the cover letter
@@ -394,7 +394,7 @@
 %% CHANGE SPACING / SPACE
 % Others (Before 0.5, 1.0)
 \newcommand{\acvSectionTopSkip}{0.25mm}
-\newcommand{\acvSectionContentTopSkip}{1.0mm}
+\newcommand{\acvSectionContentTopSkip}{0.8mm}
 
 
 %-------------------------------------------------------------------------------
