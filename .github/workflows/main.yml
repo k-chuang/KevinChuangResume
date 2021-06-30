@@ -37,18 +37,24 @@ jobs:
 #             --pdf-engine=xelatex
 #             --template=cv.tex
 #             -o cv.pdf
-      - name: Commit files
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          make build
-          ghp-import -n ./_build
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+            # Push the book's HTML to github-pages
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          force: true
+          publish_dir: ./_build
+#       - name: Commit files
+#         run: |
+#           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git config --local user.name "github-actions[bot]"
+#           make build
+#           ghp-import -n ./_build
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: gh-pages
+#           force: true
 #       # Compile LaTeX
 #       - name: Github action for LaTeX
 #         uses: xu-cheng/latex-action@v2
