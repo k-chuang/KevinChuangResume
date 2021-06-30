@@ -48,6 +48,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
+          force: true
 #       # Compile LaTeX
 #       - name: Github action for LaTeX
 #         uses: xu-cheng/latex-action@v2
