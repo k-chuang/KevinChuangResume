@@ -38,10 +38,10 @@ jobs:
           git add cv.pdf
           git commit -m "Add changes"
       - name: Push changes
-        uses: ad-m/github-push-action@gh-pages
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: gh-pages
 #       # Compile LaTeX
 #       - name: Github action for LaTeX
 #         uses: xu-cheng/latex-action@v2
