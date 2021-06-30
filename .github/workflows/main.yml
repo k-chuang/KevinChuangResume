@@ -26,13 +26,17 @@ jobs:
         with:
           persist-credentials: false  # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0              # otherwise, you will get failed to push refs to dest repo
-      - name: Compile latex with pandoc
-        uses: docker://pandoc/latex:2.11.4
-        with:
-          args: >-  # allows you to break string into multiple lines
-            --pdf-engine=xelatex
-            --template=cv.tex
-            -o cv.pdf
+      - name: Compile latex with latexdockersh
+        run: |
+          wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
+          chmod +x latexdockercmd.sh
+          ./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error cv.tex -outdir=./_build
+#         uses: docker://pandoc/latex:2.11.4
+#         with:
+#           args: >-  # allows you to break string into multiple lines
+#             --pdf-engine=xelatex
+#             --template=cv.tex
+#             -o cv.pdf
       - name: Commit files
         run: |
           git add cv.pdf
