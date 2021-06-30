@@ -39,7 +39,7 @@ jobs:
 #             -o cv.pdf
       - name: Commit files
         run: |
-          git add cv.pdf
+          git add _build/cv.pdf
           git commit -m "Add changes"
       - name: Push changes
         uses: ad-m/github-push-action@master
