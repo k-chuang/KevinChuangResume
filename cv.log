@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.1.22)  11 AUG 2021 19:07
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.1.22)  1 NOV 2021 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,9 +1160,9 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 19.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.5pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 24.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/bx/n' will be
-(Font)              scaled to size 12.5pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 24.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 24.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/m/sl' in size <9.5> not av
@@ -1181,7 +1181,7 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 9.5pt on input line 24.
 ) (./resume/experience.tex
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/bx/n' will be
-(Font)              scaled to size 9.5pt on input line 37.
+(Font)              scaled to size 9.5pt on input line 39.
 ) (./resume/projects.tex)
 (./resume/skills.tex
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(1)/bx/n' will be
@@ -1204,8 +1204,8 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
  40100 strings out of 493638
- 764016 string characters out of 6146796
- 886174 words of memory out of 5000000
+ 764012 string characters out of 6146796
+ 886170 words of memory out of 5000000
  42977 multiletter control sequences out of 15000+600000
  6560 words of font info for 82 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
