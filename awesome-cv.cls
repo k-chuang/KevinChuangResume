@@ -215,7 +215,7 @@
 \newcommand*{\paragraphstyle}{\fontsize{10pt}{1em}\bodyfontlight\upshape\color{text}}
 
 % For elements of entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{12.5pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{darktext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{9.5pt}{1em}\bodyfont\slshape\color{text} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9.5pt}{1em}\bodyfont\slshape\color{awesome} #1}}
@@ -393,7 +393,7 @@
 
 %% CHANGE SPACING / SPACE
 % Others (Before 0.5, 1.0)
-\newcommand{\acvSectionTopSkip}{0.25mm}
+\newcommand{\acvSectionTopSkip}{-1mm}
 \newcommand{\acvSectionContentTopSkip}{0.8mm}
 
 
@@ -784,7 +784,7 @@
 % Different entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventryupdate}[7]{%
-  \vspace{-2.0mm}
+  \vspace{-1.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{-2.5pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
