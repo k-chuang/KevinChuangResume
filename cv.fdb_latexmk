@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1635786413 "cv.tex" "_build/cv.pdf" "cv" 1635786416
+["pdflatex"] 1638853263 "cv.tex" "_build/cv.pdf" "cv" 1638853266
   "/etc/texmf/web2c/texmf.cnf" 1516624176 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -154,16 +154,16 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1414244106 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1516624624 3472049 d2700a063b50d92c4213b17c8b4359f2 ""
-  "_build/cv.aux" 1635786416 665 82c456479ed516bc5a94b04c48282691 ""
-  "_build/cv.out" 1635786416 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "awesome-cv.cls" 1635786307 34621 5be73a31b3f90413b860f54ed2ffc689 ""
-  "cv.tex" 1635786307 3627 33611b9e53d964a17d33addbbdd8c0a8 ""
-  "resume/education.tex" 1635786307 1735 cff6e6d82eedcda5316baccf9974366b ""
-  "resume/experience.tex" 1635786307 16429 b52bcc5457bc63df0f19c6b3ff88d72d ""
-  "resume/projects.tex" 1635786307 11020 0911dc6e2a65730d3bbae380faaa8fe8 ""
-  "resume/skills.tex" 1635786307 3327 6542074ecd7a2e0a1d4775b70be6f0bf ""
+  "_build/cv.aux" 1638853265 665 82c456479ed516bc5a94b04c48282691 ""
+  "_build/cv.out" 1638853265 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "awesome-cv.cls" 1638853152 34621 5be73a31b3f90413b860f54ed2ffc689 ""
+  "cv.tex" 1638853152 3615 711897f4f1d01334ce6026007af623db ""
+  "resume/education.tex" 1638853152 1735 cff6e6d82eedcda5316baccf9974366b ""
+  "resume/experience.tex" 1638853152 16411 2ae982facc400aa093297da263e4d0f5 ""
+  "resume/projects.tex" 1638853152 11020 0911dc6e2a65730d3bbae380faaa8fe8 ""
+  "resume/skills.tex" 1638853152 3334 f4db60ef89876cf244436845dec96cd4 ""
   (generated)
   "_build/cv.out"
+  "_build/cv.log"
   "_build/cv.aux"
   "_build/cv.pdf"
-  "_build/cv.log"
