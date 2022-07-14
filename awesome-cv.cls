@@ -784,9 +784,9 @@
 % Different entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventryupdate}[7]{%
-  \vspace{-1.5mm}
+  \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
-  \setlength{\extrarowheight}{-2.5pt}
+  \setlength{\extrarowheight}{-3.5pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
