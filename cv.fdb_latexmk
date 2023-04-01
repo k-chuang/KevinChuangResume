@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1676325143 "cv.tex" "_build/cv.pdf" "cv" 1676325146
+["pdflatex"] 1680371152 "cv.tex" "_build/cv.pdf" "cv" 1680371154
   "/etc/texmf/web2c/texmf.cnf" 1516624176 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -154,16 +154,16 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1414244106 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1516624624 3472049 d2700a063b50d92c4213b17c8b4359f2 ""
-  "_build/cv.aux" 1676325145 665 82c456479ed516bc5a94b04c48282691 ""
-  "_build/cv.out" 1676325145 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "awesome-cv.cls" 1676325065 35146 f01f34b1ed6f39283e625b2cc0643fbc ""
-  "cv.tex" 1676325065 3615 22ac408956c3ab95dcf94d5f5171a32e ""
-  "resume/education.tex" 1676325065 2581 4a5f808ef00938c8010baf42d7ebb408 ""
-  "resume/experience.tex" 1676325065 18052 758ad89a0f3f611dbcd5aa1320089281 ""
-  "resume/projects.tex" 1676325065 11177 e4d52b7ff169a958b2a713866882d17d ""
-  "resume/skills.tex" 1676325065 3444 ab7e4d1c0db71bc042c8d8babf97fbfa ""
+  "_build/cv.aux" 1680371154 665 82c456479ed516bc5a94b04c48282691 ""
+  "_build/cv.out" 1680371154 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "awesome-cv.cls" 1680371072 35182 06a278ef1db12f564a22742ad5f4a220 ""
+  "cv.tex" 1680371072 3615 22ac408956c3ab95dcf94d5f5171a32e ""
+  "resume/education.tex" 1680371072 2572 efacf658d96b0cc4dda812fd903c6a32 ""
+  "resume/experience.tex" 1680371072 18017 da079c37086ca3552f827a4556a70bdf ""
+  "resume/projects.tex" 1680371072 11177 e4d52b7ff169a958b2a713866882d17d ""
+  "resume/skills.tex" 1680371072 3433 9a5637f32383ec27969b9fd22aa9a6a5 ""
   (generated)
-  "_build/cv.log"
-  "_build/cv.out"
   "_build/cv.pdf"
+  "_build/cv.out"
+  "_build/cv.log"
   "_build/cv.aux"
